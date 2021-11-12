@@ -8,5 +8,7 @@ Partial Implementation Stage
 
 "J_Component_CSE3001_main" Contains the java code in its package
 
+"tables" contains the SQL query tables
+
 
 Advait Deochakke 20BCE1143
