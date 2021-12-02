@@ -8,15 +8,12 @@
  *
  * @author advait
  */
-public class PublicVariable extends javax.swing.JFrame {
-    static Customer_Registration Register=new Customer_Registration();
-    static BillingC1 C1=new BillingC1();
-    static BillingC2 C2=new BillingC2();
-    static Admin Ad=new Admin();
+public class AdminPage extends javax.swing.JFrame {
+
     /**
-     * Creates new form PublicVariable
+     * Creates new form AdminPage
      */
-    public PublicVariable() {
+    public AdminPage() {
         initComponents();
     }
 
@@ -62,20 +59,20 @@ public class PublicVariable extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(PublicVariable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(PublicVariable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(PublicVariable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(PublicVariable.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(AdminPage.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new PublicVariable().setVisible(true);
+                new AdminPage().setVisible(true);
             }
         });
     }
