@@ -14,5 +14,9 @@ Partial Implementation Stage
 
 "UI" containes the final UI for review 3
 
+"Test Case Report Final" is the test case report, as the name suggests
+
+"Test Case Execution" containes images for the test cases executed
+
 
 Advait Deochakke 20BCE1143
